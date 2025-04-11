@@ -4,20 +4,21 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <iframe
+        className="tix-embed-frame"
+        src="https://lcsc.hometownticketing.com/embed/all?tile_id=1"
+        id="iFrameResizer0"
+        scrolling="no"
+        style={{
+          borderWidth: 0,
+          position: 'relative',
+          width: '100%',
+          maxWidth: '100%',
+          height: '1056px',
+          overflow: 'hidden',
+        }}
+        title="Hometown Ticketing"
+      ></iframe>  
     </div>
   );
 }
