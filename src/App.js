@@ -14,7 +14,7 @@ function App() {
           position: 'relative',
           width: '100%',
           maxWidth: '100%',
-          height: '1056px',
+          height: '2056px',
           overflow: 'hidden',
         }}
         title="Hometown Ticketing"
