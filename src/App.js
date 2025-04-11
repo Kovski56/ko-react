@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <iframe
         className="tix-embed-frame"
-        src="https://lcsc.hometownticketing.com/embed/all?tile_id=1"
+        src="https://onboardingtest36.hometownticketing.com/embed/all"
         id="iFrameResizer0"
         scrolling="no"
         style={{
